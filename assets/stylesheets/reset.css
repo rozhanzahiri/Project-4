@@ -1,0 +1,22 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Source Serif 4", serif;
+    font-style: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+li{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
